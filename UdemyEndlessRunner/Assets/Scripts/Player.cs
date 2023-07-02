@@ -287,11 +287,7 @@ public class Player : MonoBehaviour
 
     private void SetupMovement()
     {
-        if (wallDetected)
-        {
-            SpeedReset();
-            return;
-        }
+
 
         if (isSliding && ceillingDetected)
         {
@@ -299,6 +295,11 @@ public class Player : MonoBehaviour
         }
         else
         {
+            if (wallDetected)
+            {
+                SpeedReset();
+                return;
+            }
             rigibody2D.velocity = new Vector2(moveSpeed, rigibody2D.velocity.y);
         }
     }
@@ -331,7 +332,13 @@ public class Player : MonoBehaviour
     {
         isGround = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
         ceillingDetected = Physics2D.Raycast(transform.position, Vector2.up, ceilingCheckDistance, whatIsGround);
-        wallDetected = Physics2D.BoxCast(wallCheck.position, wallCheckSize, 0, Vector2.zero, 0, whatIsGround);
+        wallDetected = Physics2D.BoxCast(
+            origin: wallCheck.position,
+            size: wallCheckSize,
+            angle: 0,
+            direction: Vector2.zero,
+            distance: 0,
+            layerMask: whatIsGround);
     }
 
     private void CheckInput()

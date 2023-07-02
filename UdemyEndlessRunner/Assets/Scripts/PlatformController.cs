@@ -21,7 +21,12 @@ public class PlatformController : MonoBehaviour
     // {
     //     if (collision.GetComponent<Player>() != null)
     //     {
-    //         headerSr.color = GameManager
+    //         headerSr.color = GameManager.instance.platformColor;
+    //         sr.color = GameManager.instance.platformColor;
+    //     }
+    //     else
+    //     {
+    //         headerSr.color = GameManager.instance.platformColor;
     //     }
     // }
 

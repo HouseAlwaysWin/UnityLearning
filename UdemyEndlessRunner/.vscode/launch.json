@@ -5,96 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Unity Editor",
+            "name": "EndlessRunner",
             "type": "unity",
-            "path": "/D:/Projects/Unity Projects/UdemyCourse/UdemyEndlessRunner/Library/EditorInstance.json",
+            "path": "/D:/Projects/Unity/UnityLearninge/UdemyEndlessRunner/Library/EditorInstance.json",
             "request": "launch"
         },
-        {
-            "name": "Windows Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "OSX Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Linux Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "iOS Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Android Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Xbox One Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "PS4 Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "SwitchPlayer",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Unity Editor",
-            "type": "unity",
-            "path": "/D:/Projects/Unity Projects/UdemyCourse/UdemyEndlessRunner/Library/EditorInstance.json",
-            "request": "launch"
-        },
-        {
-            "name": "Windows Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "OSX Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Linux Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "iOS Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Android Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "Xbox One Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "PS4 Player",
-            "type": "unity",
-            "request": "launch"
-        },
-        {
-            "name": "SwitchPlayer",
-            "type": "unity",
-            "request": "launch"
-        }
     ]
 }
