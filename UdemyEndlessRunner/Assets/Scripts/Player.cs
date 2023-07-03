@@ -163,6 +163,7 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSeconds(.5f);
         rigibody2D.velocity = new Vector2(0, 0);
+        GameManager.instance.RestartLevel();
     }
 
     private IEnumerator Invincibility()
