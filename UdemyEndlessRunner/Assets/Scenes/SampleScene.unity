@@ -6596,7 +6596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorEntierPlatform: 0
-  platformColor: {r: 0, g: 0, b: 0, a: 0}
+  platformColor: {r: 1, g: 0.48584908, b: 0.48584908, a: 0}
   coins: 0
 --- !u!4 &888068933
 Transform:
