@@ -11,6 +11,7 @@ public class CoinGenerator : MonoBehaviour
     private int minCoins;
     [SerializeField]
     private int maxCoins;
+
     // Start is called before the first frame update
     void Start()
     {
